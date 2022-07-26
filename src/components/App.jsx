@@ -7,6 +7,7 @@ import { AuthProvider } from '../contexts/AuthContext';
 import Signin from './Signin';
 import PrivateRoute from './PrivateRoute';
 import ForgotPassword from './ForgotPassword';
+import UpdateProfile from './UpdateProfile';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <AuthProvider>
             <Routes>
               <Route exact path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+              <Route exact path="/update-profile" element={<PrivateRoute><UpdateProfile /></PrivateRoute>} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/signin" element={<Signin />} />
               <Route path="/forgot-password" element={<ForgotPassword />} />
