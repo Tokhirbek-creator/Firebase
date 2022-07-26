@@ -21,5 +21,8 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/jsx-no-constructed-context-values': 0,
+    'react/jsx-no-bind': 0,
+    'consistent-return': 0,
+    'react/prop-types': 0,
   },
 };
