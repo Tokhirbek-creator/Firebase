@@ -13,7 +13,7 @@ function Dashboard() {
 
     try {
       await signout();
-      navigate('/login');
+      navigate('/signin');
     } catch {
       setError('Failed to log out');
     }
