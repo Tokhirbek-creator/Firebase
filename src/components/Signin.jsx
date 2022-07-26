@@ -44,6 +44,9 @@ function Signin() {
             </Form.Group>
             <Button disabled={loading} className="w-100" type="submit">Sign In</Button>
           </Form>
+          <div className="w-100 text-center mt-3">
+            <Link to="/forgot-password">Forgot Password?</Link>
+          </div>
         </Card.Body>
       </Card>
       <div className="w-100 text-center mt-2">

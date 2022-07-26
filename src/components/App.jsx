@@ -5,6 +5,8 @@ import Dashboard from './Dashboard';
 import Signup from './Signup';
 import { AuthProvider } from '../contexts/AuthContext';
 import Signin from './Signin';
+import PrivateRoute from './PrivateRoute';
+import ForgotPassword from './ForgotPassword';
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
         <BrowserRouter>
           <AuthProvider>
             <Routes>
-              <Route exact path="/" element={<Dashboard />} />
+              <Route exact path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/signin" element={<Signin />} />
+              <Route path="/forgot-password" element={<ForgotPassword />} />
             </Routes>
           </AuthProvider>
         </BrowserRouter>
