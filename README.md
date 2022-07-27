@@ -6,14 +6,14 @@
 
 ## Sign Up & Sign In
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/76901834/181222574-0464e0a4-a2be-4f75-b55f-45437aa1f8d9.png" width="500" height="500" />
-  <img src="https://user-images.githubusercontent.com/76901834/181223419-e0ebdc84-3d84-41a7-9651-6cdd7b9b1441.png" width="500" height="500" />
+  <img src="https://user-images.githubusercontent.com/76901834/181222574-0464e0a4-a2be-4f75-b55f-45437aa1f8d9.png" width="370" height="370" />
+  <img src="https://user-images.githubusercontent.com/76901834/181223419-e0ebdc84-3d84-41a7-9651-6cdd7b9b1441.png" width="370" height="370" />
 </p>
 
 ## Profile & Update Profile
 <p align="left"> 
-  <img src="https://user-images.githubusercontent.com/76901834/181223849-b2cc84c9-0bac-4b96-ac7d-70430f2d6527.png" width="500" height="500" />
-  <img src="https://user-images.githubusercontent.com/76901834/181224411-6a40e744-016a-4767-a401-28e875ce943a.png" width="500" height="500" />
+  <img src="https://user-images.githubusercontent.com/76901834/181223849-b2cc84c9-0bac-4b96-ac7d-70430f2d6527.png" width="370" height="370" />
+  <img src="https://user-images.githubusercontent.com/76901834/181224411-6a40e744-016a-4767-a401-28e875ce943a.png" width="370" height="370" />
 </p>
 
 ## Reset Password with Email
